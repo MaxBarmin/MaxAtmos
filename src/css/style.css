@@ -277,7 +277,7 @@ html {
     @media screen and (max-width: 440px) {
         margin-top: 50px;
         gap: 27px;
-        justify-content: right;
+        justify-content: center;
         align-self: center;
         margin-left: 170px;
 
@@ -286,11 +286,12 @@ html {
             height: 33px;
 
             .promo__more-img {
-                width: 17px;
-                height: 17px;
+                width: 18px;
+                height: 18px;
             }
 
-            border: 1px;
+            border:solid 2px rgba(0, 0, 0, 0.20);
+            ;
         }
 
         .buttom__text {
