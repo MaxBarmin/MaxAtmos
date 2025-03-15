@@ -277,9 +277,9 @@ html {
     @media screen and (max-width: 440px) {
         margin-top: 50px;
         gap: 27px;
-        justify-content: center;
+        justify-content: right;
         align-self: center;
-        margin-left: 170px;
+
 
         .btn {
             width: 33px;
