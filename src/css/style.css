@@ -213,8 +213,8 @@ html {
         justify-content: center;
         align-items: center;
 
-        min-width: 56px;
-        max-height: 56px;
+        width: 56px;
+        height: 56px;
         background-color: rgba(238, 238, 238, 1);
         border-radius: 8px;
         border: solid 2px rgba(0, 0, 0, 0.35);
@@ -237,8 +237,8 @@ html {
         gap: 33px;
 
         .btn {
-            min-width: 50px;
-            max-height: 50px;
+            width: 50px;
+            height: 50px;
 
             .promo__more-img {
                 width: 24px;
@@ -259,8 +259,8 @@ html {
 
 
         .btn {
-            min-width: 44px;
-            max-height: 44px;
+            width: 44px;
+            height: 44px;
 
             .promo__more-img {
                 width: 20px;
@@ -277,16 +277,20 @@ html {
     @media screen and (max-width: 440px) {
         margin-top: 50px;
         gap: 27px;
-
+        justify-content: right;
+        align-self: center;
+        margin-left: 170px;
 
         .btn {
-            min-width: 33px;
-            max-height: 33px;
+            width: 33px;
+            height: 33px;
 
             .promo__more-img {
                 width: 18px;
                 height: 18px;
             }
+
+            border: 1px;
         }
 
         .buttom__text {
